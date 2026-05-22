@@ -1,7 +1,60 @@
 {
-  "login_title": "Sign in to your account",
-  "email_label": "Email address",
-  "password_label": "Password",
-  "sign_in_button": "Sign in",
-  "login_discord": "Continue with Discord"
+  "login": {
+    "title": "Sign in to your account",
+    "subtitle": "Access the InnerStudios ecosystem.",
+    "form": {
+      "email": {
+        "label": "Email address",
+        "placeholder": "you@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "••••••••",
+        "forgot": "Forgot password?"
+      },
+      "submit": "Sign in"
+    },
+    "social": {
+      "divider": "Or continue with",
+      "discord": "Discord"
+    },
+    "errors": {
+      "invalid_credentials": "The email or password you entered is incorrect.",
+      "rate_limited": "Too many attempts. Please try again later."
+    }
+  },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "Join the InnerStudios community.",
+    "form": {
+      "username": {
+        "label": "Username",
+        "placeholder": "cool_dev"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "you@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "••••••••"
+      },
+      "submit": "Create account"
+    },
+    "login_link": "Already have an account? Sign in here."
+  },
+  "mfa": {
+    "setup": {
+      "title": "Two-Factor Authentication",
+      "instructions": "Scan this QR code with your authenticator app.",
+      "code_label": "Verification Code",
+      "submit": "Enable 2FA"
+    },
+    "verify": {
+      "title": "Verification Required",
+      "instructions": "Enter the 6-digit code from your authenticator app.",
+      "code_label": "Authentication Code",
+      "submit": "Verify"
+    }
+  }
 }

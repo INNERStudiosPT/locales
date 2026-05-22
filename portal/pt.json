@@ -1,9 +1,107 @@
 {
-  "welcome": "Bem-vindo ao Portal InnerStudios",
-  "licenses": "Chaves de Licença",
-  "plans": "Planos",
-  "upvotes": "Upvotes",
-  "support": "Suporte",
-  "create_license": "Criar chave de licença",
-  "account_details": "Detalhes da Conta"
+  "common": {
+    "buttons": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "back": "Voltar",
+      "save": "Guardar Alterações",
+      "delete": "Apagar",
+      "request_deletion": "Solicitar Eliminação da Conta"
+    },
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "loading": "A carregar..."
+    }
+  },
+  "navbar": {
+    "title": "Portal InnerStudios",
+    "links": {
+      "licenses": "Chaves de Licença",
+      "plans": "Planos",
+      "upvotes": "Upvotes",
+      "support": "Suporte"
+    },
+    "dropdown": {
+      "active_customer": "Cliente Ativo",
+      "no_email_linked": "Nenhum email associado",
+      "account_settings": "Definições da Conta",
+      "logout": "Terminar Sessão"
+    }
+  },
+  "licenses": {
+    "list": {
+      "title": "Chaves de Licença",
+      "subtitle": "Gere as chaves de licença do teu servidor. Mantém-nas em segredo.",
+      "empty_state": "Ainda não tens chaves de licença.",
+      "create_button": "Criar chave de licença",
+      "table": {
+        "label": "Rótulo",
+        "key": "Chave de Licença",
+        "status": "Estado",
+        "ip": "IP Permitido",
+        "actions": "Ações",
+        "copied": "Copiado!"
+      }
+    },
+    "create": {
+      "title": "Criar nova licença",
+      "subtitle": "Configura a nova chave de licença para o servidor. Podes atualizar estes detalhes mais tarde.",
+      "form": {
+        "label": "Rótulo do Servidor",
+        "label_placeholder": "ex: O Meu Servidor de Produção",
+        "label_help": "Um nome amigável para identificar esta chave.",
+        "slug": "Slug do Servidor",
+        "slug_placeholder": "ex: inner-prod-1",
+        "slug_help": "Um identificador interno e único.",
+        "ip": "Whitelist de IP (Opcional)",
+        "ip_placeholder": "192.168.1.1",
+        "ip_help": "Bloqueia esta licença a um endereço IP específico para maior segurança."
+      },
+      "continue_button": "Continuar",
+      "incomplete_toast_title": "Formulário Incompleto",
+      "incomplete_toast_desc": "Por favor, preenche todos os campos obrigatórios."
+    },
+    "tos": {
+      "title": "Acordo de Serviço",
+      "subtitle": "Por favor, lê e aceita os nossos Termos de Serviço",
+      "document": {
+        "title": "Licença de Software e Termos de Serviço da INNERStudios",
+        "intro": "Ao criares esta chave de licença e ao utilizares os produtos da INNERStudios, concordas explicitamente com os seguintes termos e condições na sua totalidade.",
+        "section_1_title": "1. Âmbito do Serviço e Responsabilidade",
+        "section_1_text1": "A INNERStudios, os seus afiliados e os seus produtos funcionam estritamente como meios e canais tecnológicos para o funcionamento e abertura de servidores. Fornecemos a estrutura de software e as ferramentas, mas NÃO controlamos, alojamos, endossamos ou verificamos o conteúdo transmitido, carregado ou executado dentro do próprio servidor.",
+        "section_1_text2": "Todo o conteúdo, atividades e interações do servidor são da exclusiva e inteira responsabilidade do criador do servidor (tu). A INNERStudios não aceita qualquer responsabilidade por conteúdo ilegal, infrator ou malicioso alojado em servidores que utilizem o nosso software.",
+        "section_2_title": "2. Conformidade e Entrega de Dados",
+        "section_2_text1": "Concordas em operar o teu servidor em conformidade com todas as leis locais, nacionais e internacionais aplicáveis. No caso de uma queixa legal válida, notificação de remoção DMCA, intimação policial ou denúncia de abuso verificada, a INNERStudios irá cooperar totalmente com as autoridades e entregará todos e quaisquer dados relevantes, incluindo as informações pessoais do criador do servidor, endereços IP e registos de licença.",
+        "section_3_title": "3. Revogação de Acesso",
+        "section_3_text1": "A INNERStudios reserva-se o direito de revogar, suspender ou terminar permanentemente e de imediato qualquer chave de licença sem aviso prévio ou reembolso se determinarmos, a nosso exclusivo critério, que o servidor viola estes termos, facilita atividades ilegais ou prejudica a reputação da nossa plataforma."
+      },
+      "checkbox_label": "Li atentamente, compreendi e aceito os Termos de Serviço. Reconheço a minha total responsabilidade pelos conteúdos do servidor e entendo que os meus dados serão fornecidos às autoridades em caso de atividades ilegais ou denúncias válidas.",
+      "confirm_button": "Confirmar e Criar Licença",
+      "error_toast_title": "Termos não aceites",
+      "error_toast_desc": "Deves aceitar os Termos de Serviço para poderes continuar."
+    }
+  },
+  "support": {
+    "title": "Helpdesk e Suporte",
+    "subtitle": "Cria um ticket ou consulta a nossa base de conhecimento para obteres assistência.",
+    "tickets": {
+      "title": "Abrir um Ticket",
+      "desc": "Obtém ajuda da nossa equipa de suporte"
+    },
+    "knowledge_base": {
+      "title": "Base de Conhecimento",
+      "desc": "Lê guias e documentação técnica"
+    }
+  },
+  "account_details": {
+    "title": "Detalhes da Conta",
+    "badge": "Resumo",
+    "plan_label": "Plano Atual",
+    "email_label": "Email",
+    "discord_label": "Estado do Discord",
+    "discord_linked": "Associado como {username}",
+    "discord_unlinked": "Não associado",
+    "contact_support": "Contactar Suporte"
+  }
 }

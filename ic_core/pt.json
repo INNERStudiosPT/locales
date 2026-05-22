@@ -1,5 +1,37 @@
 {
-  "system_reboot": "O servidor vai reiniciar em {minutes} minutos.",
-  "action_failed": "Não podes fazer isso agora.",
-  "inventory_full": "O teu inventário está cheio!"
+  "system": {
+    "reboot": {
+      "warning": "REINÍCIO DO SERVIDOR",
+      "message": "O servidor vai reiniciar em {minutes} minutos. Por favor, encontra um local seguro e desliga."
+    },
+    "commands": {
+      "permission_denied": "Não tens permissão para usar este comando.",
+      "player_not_found": "Nenhum jogador encontrado com o ID {id}.",
+      "invalid_args": "Argumentos inválidos. Uso: {usage}"
+    }
+  },
+  "inventory": {
+    "errors": {
+      "full": "O teu inventário está cheio!",
+      "weight_exceeded": "Não consegues carregar mais peso.",
+      "item_not_found": "Não possuis este item."
+    },
+    "actions": {
+      "give": "Deste {amount}x {item} a {player}.",
+      "receive": "Recebeste {amount}x {item} de {player}.",
+      "use": "Usaste {item}."
+    }
+  },
+  "jobs": {
+    "police": {
+      "duty_on": "Entraste EM SERVIÇO como agente da polícia.",
+      "duty_off": "Saíste DE SERVIÇO.",
+      "cuff": "Algemaste o suspeito.",
+      "uncuff": "Retiraste as algemas ao suspeito."
+    },
+    "ambulance": {
+      "revive": "Reanimaste {player}.",
+      "heal": "Curaste {player}."
+    }
+  }
 }

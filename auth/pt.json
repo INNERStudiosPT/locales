@@ -1,7 +1,60 @@
 {
-  "login_title": "Inicie sessão na sua conta",
-  "email_label": "Endereço de email",
-  "password_label": "Palavra-passe",
-  "sign_in_button": "Iniciar Sessão",
-  "login_discord": "Continuar com o Discord"
+  "login": {
+    "title": "Inicie sessão na sua conta",
+    "subtitle": "Aceda ao ecossistema InnerStudios.",
+    "form": {
+      "email": {
+        "label": "Endereço de email",
+        "placeholder": "tu@exemplo.com"
+      },
+      "password": {
+        "label": "Palavra-passe",
+        "placeholder": "••••••••",
+        "forgot": "Esqueceste-te da palavra-passe?"
+      },
+      "submit": "Iniciar Sessão"
+    },
+    "social": {
+      "divider": "Ou continue com",
+      "discord": "Discord"
+    },
+    "errors": {
+      "invalid_credentials": "O email ou a palavra-passe que inseriste estão incorretos.",
+      "rate_limited": "Demasiadas tentativas. Por favor, tenta novamente mais tarde."
+    }
+  },
+  "register": {
+    "title": "Cria a tua conta",
+    "subtitle": "Junta-te à comunidade InnerStudios.",
+    "form": {
+      "username": {
+        "label": "Nome de Utilizador",
+        "placeholder": "dev_porreiro"
+      },
+      "email": {
+        "label": "Endereço de email",
+        "placeholder": "tu@exemplo.com"
+      },
+      "password": {
+        "label": "Palavra-passe",
+        "placeholder": "••••••••"
+      },
+      "submit": "Criar conta"
+    },
+    "login_link": "Já tens uma conta? Inicia sessão aqui."
+  },
+  "mfa": {
+    "setup": {
+      "title": "Autenticação de Dois Fatores (2FA)",
+      "instructions": "Lê este código QR com a tua aplicação de autenticação.",
+      "code_label": "Código de Verificação",
+      "submit": "Ativar 2FA"
+    },
+    "verify": {
+      "title": "Verificação Necessária",
+      "instructions": "Insere o código de 6 dígitos da tua aplicação de autenticação.",
+      "code_label": "Código de Autenticação",
+      "submit": "Verificar"
+    }
+  }
 }

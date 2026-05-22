@@ -1,9 +1,107 @@
 {
-  "welcome": "Welcome to InnerStudios Portal",
-  "licenses": "License keys",
-  "plans": "Plans",
-  "upvotes": "Upvotes",
-  "support": "Support",
-  "create_license": "Create license key",
-  "account_details": "Account Details"
+  "common": {
+    "buttons": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "back": "Back",
+      "save": "Save Changes",
+      "delete": "Delete",
+      "request_deletion": "Request Account Deletion"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "loading": "Loading..."
+    }
+  },
+  "navbar": {
+    "title": "InnerStudios Portal",
+    "links": {
+      "licenses": "License keys",
+      "plans": "Plans",
+      "upvotes": "Upvotes",
+      "support": "Support"
+    },
+    "dropdown": {
+      "active_customer": "Active Customer",
+      "no_email_linked": "No email linked",
+      "account_settings": "Account Settings",
+      "logout": "Log Out"
+    }
+  },
+  "licenses": {
+    "list": {
+      "title": "License Keys",
+      "subtitle": "Manage your server license keys. Keep them secret.",
+      "empty_state": "No license keys yet.",
+      "create_button": "Create license key",
+      "table": {
+        "label": "Label",
+        "key": "License Key",
+        "status": "Status",
+        "ip": "Allowed IP",
+        "actions": "Actions",
+        "copied": "Copied!"
+      }
+    },
+    "create": {
+      "title": "Create new license",
+      "subtitle": "Configure your new server license key. You can update these details later.",
+      "form": {
+        "label": "Server Label",
+        "label_placeholder": "e.g. My Production Server",
+        "label_help": "A friendly name to identify this key.",
+        "slug": "Server Slug",
+        "slug_placeholder": "e.g. inner-prod-1",
+        "slug_help": "A unique internal identifier.",
+        "ip": "IP Whitelist (Optional)",
+        "ip_placeholder": "192.168.1.1",
+        "ip_help": "Lock this license to a specific IP address for extra security."
+      },
+      "continue_button": "Continue",
+      "incomplete_toast_title": "Incomplete Form",
+      "incomplete_toast_desc": "Please fill out all required fields."
+    },
+    "tos": {
+      "title": "Service Agreement",
+      "subtitle": "Please read and accept our Terms of Service",
+      "document": {
+        "title": "INNERStudios Software License & Terms of Service",
+        "intro": "By creating this license key and using INNERStudios products, you explicitly agree to the following terms and conditions in their entirety.",
+        "section_1_title": "1. Scope of Service & Liability",
+        "section_1_text1": "INNERStudios, its affiliates, and its products serve strictly as means and technological channels for the operation and opening of servers. We provide the software framework and tooling, but we do NOT control, host, endorse, or verify the content transmitted, uploaded, or executed within the server itself.",
+        "section_1_text2": "All server content, activities, and interactions are the sole and exclusive responsibility of the server creator (you). INNERStudios accepts no liability for illegal, infringing, or malicious content hosted on servers utilizing our software.",
+        "section_2_title": "2. Compliance & Data Handover",
+        "section_2_text1": "You agree to operate your server in compliance with all applicable local, national, and international laws. In the event of a valid legal complaint, DMCA takedown notice, law enforcement subpoena, or verified abuse report, INNERStudios will fully cooperate with authorities and will hand over any and all relevant data, including the server creator's personal information, IP addresses, and license records.",
+        "section_3_title": "3. Revocation of Access",
+        "section_3_text1": "INNERStudios reserves the right to immediately revoke, suspend, or permanently terminate any license key without prior notice or refund if we determine, at our sole discretion, that the server violates these terms, facilitates illegal activities, or harms the reputation of our platform."
+      },
+      "checkbox_label": "I have carefully read, understood, and accept the Terms of Service. I acknowledge my full responsibility for the server's content and understand that my data will be provided to authorities in case of illegal activities or valid reports.",
+      "confirm_button": "Confirm & Create License",
+      "error_toast_title": "Terms not accepted",
+      "error_toast_desc": "You must accept the Terms of Service to continue."
+    }
+  },
+  "support": {
+    "title": "Helpdesk & Support",
+    "subtitle": "Create a ticket or browse our knowledge base for assistance.",
+    "tickets": {
+      "title": "Open a Ticket",
+      "desc": "Get help from our support team"
+    },
+    "knowledge_base": {
+      "title": "Knowledge Base",
+      "desc": "Read guides and documentation"
+    }
+  },
+  "account_details": {
+    "title": "Account Details",
+    "badge": "Summary",
+    "plan_label": "Current Plan",
+    "email_label": "Email",
+    "discord_label": "Discord Status",
+    "discord_linked": "Linked as {username}",
+    "discord_unlinked": "Not linked",
+    "contact_support": "Contact Support"
+  }
 }

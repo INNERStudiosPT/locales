@@ -1,5 +1,28 @@
 {
-  "error_unauthorized": "Não está autorizado a realizar esta ação.",
-  "error_not_found": "O recurso solicitado não foi encontrado.",
-  "error_internal": "Ocorreu um erro interno no servidor."
+  "http": {
+    "400": "Pedido Inválido: O servidor não conseguiu processar o pedido devido a sintaxe incorreta.",
+    "401": "Não Autorizado: Acesso negado devido a credenciais inválidas.",
+    "403": "Proibido: Não tem permissão para aceder a este recurso.",
+    "404": "Não Encontrado: O recurso solicitado não pôde ser encontrado.",
+    "429": "Demasiados Pedidos: Excedeu o limite de requisições.",
+    "500": "Erro Interno do Servidor: O servidor encontrou um problema inesperado."
+  },
+  "licenses": {
+    "validation": {
+      "success": "Licença validada com sucesso.",
+      "revoked": "Esta licença foi revogada permanentemente por um administrador.",
+      "ip_mismatch": "Esta licença está vinculada a outro endereço IP. Acesso negado.",
+      "expired": "O seu plano ativo expirou. Por favor, renove a sua subscrição."
+    }
+  },
+  "emails": {
+    "welcome": {
+      "subject": "Bem-vindo à InnerStudios!",
+      "body": "Olá {name},\n\nBem-vindo à InnerStudios! Estamos entusiasmados por te ter connosco."
+    },
+    "password_reset": {
+      "subject": "Pedido de Recuperação de Palavra-passe",
+      "body": "Clica no seguinte link para redefinir a tua palavra-passe: {link}"
+    }
+  }
 }

@@ -1,5 +1,28 @@
 {
-  "error_unauthorized": "You are not authorized to perform this action.",
-  "error_not_found": "The requested resource was not found.",
-  "error_internal": "An internal server error occurred."
+  "http": {
+    "400": "Bad Request: The server could not understand the request due to invalid syntax.",
+    "401": "Unauthorized: Access is denied due to invalid credentials.",
+    "403": "Forbidden: You do not have permission to access this resource.",
+    "404": "Not Found: The requested resource could not be found.",
+    "429": "Too Many Requests: You have exceeded the rate limit.",
+    "500": "Internal Server Error: The server encountered an unexpected condition."
+  },
+  "licenses": {
+    "validation": {
+      "success": "License validated successfully.",
+      "revoked": "This license has been permanently revoked by an administrator.",
+      "ip_mismatch": "This license is bound to another IP address. Access denied.",
+      "expired": "Your active plan has expired. Please renew your subscription."
+    }
+  },
+  "emails": {
+    "welcome": {
+      "subject": "Welcome to InnerStudios!",
+      "body": "Hi {name},\n\nWelcome to InnerStudios! We're excited to have you on board."
+    },
+    "password_reset": {
+      "subject": "Password Reset Request",
+      "body": "Click the following link to reset your password: {link}"
+    }
+  }
 }

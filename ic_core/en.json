@@ -1,5 +1,37 @@
 {
-  "system_reboot": "The server is rebooting in {minutes} minutes.",
-  "action_failed": "You cannot do this right now.",
-  "inventory_full": "Your inventory is full!"
+  "system": {
+    "reboot": {
+      "warning": "SERVER RESTART",
+      "message": "The server will restart in {minutes} minutes. Please find a safe place and log out."
+    },
+    "commands": {
+      "permission_denied": "You do not have permission to use this command.",
+      "player_not_found": "No player found with ID {id}.",
+      "invalid_args": "Invalid arguments. Usage: {usage}"
+    }
+  },
+  "inventory": {
+    "errors": {
+      "full": "Your inventory is full!",
+      "weight_exceeded": "You cannot carry any more weight.",
+      "item_not_found": "You don't have this item."
+    },
+    "actions": {
+      "give": "You gave {amount}x {item} to {player}.",
+      "receive": "You received {amount}x {item} from {player}.",
+      "use": "You used {item}."
+    }
+  },
+  "jobs": {
+    "police": {
+      "duty_on": "You are now ON DUTY as a police officer.",
+      "duty_off": "You are now OFF DUTY.",
+      "cuff": "You handcuffed the suspect.",
+      "uncuff": "You unhandcuffed the suspect."
+    },
+    "ambulance": {
+      "revive": "You revived {player}.",
+      "heal": "You healed {player}."
+    }
+  }
 }
