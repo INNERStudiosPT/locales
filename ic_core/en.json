@@ -1,0 +1,5 @@
+{
+  "system_reboot": "The server is rebooting in {minutes} minutes.",
+  "action_failed": "You cannot do this right now.",
+  "inventory_full": "Your inventory is full!"
+}

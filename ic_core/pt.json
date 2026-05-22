@@ -1,0 +1,5 @@
+{
+  "system_reboot": "O servidor vai reiniciar em {minutes} minutos.",
+  "action_failed": "Não podes fazer isso agora.",
+  "inventory_full": "O teu inventário está cheio!"
+}

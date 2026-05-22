@@ -1,0 +1,5 @@
+{
+  "error_unauthorized": "Não está autorizado a realizar esta ação.",
+  "error_not_found": "O recurso solicitado não foi encontrado.",
+  "error_internal": "Ocorreu um erro interno no servidor."
+}
