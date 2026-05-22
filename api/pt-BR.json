@@ -1,0 +1,28 @@
+{
+  "http": {
+    "400": "Requisição Inválida: O servidor não conseguiu processar a requisição devido a uma sintaxe incorreta.",
+    "401": "Não Autorizado: Acesso negado devido a credenciais inválidas.",
+    "403": "Proibido: Você não tem permissão para acessar este recurso.",
+    "404": "Não Encontrado: O recurso solicitado não pôde ser encontrado.",
+    "429": "Muitas Requisições: Você excedeu o limite de taxa.",
+    "500": "Erro Interno do Servidor: O servidor encontrou um problema inesperado."
+  },
+  "licenses": {
+    "validation": {
+      "success": "Licença validada com sucesso.",
+      "revoked": "Esta licença foi permanentemente revogada por um administrador.",
+      "ip_mismatch": "Esta licença está vinculada a outro endereço IP. Acesso negado.",
+      "expired": "Seu plano ativo expirou. Por favor, renove sua assinatura."
+    }
+  },
+  "emails": {
+    "welcome": {
+      "subject": "Bem-vindo à InnerStudios!",
+      "body": "Olá {name},\n\nBem-vindo à InnerStudios! Estamos muito felizes em ter você a bordo."
+    },
+    "password_reset": {
+      "subject": "Solicitação de Redefinição de Senha",
+      "body": "Clique no link a seguir para redefinir sua senha: {link}"
+    }
+  }
+}

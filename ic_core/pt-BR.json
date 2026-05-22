@@ -1,0 +1,37 @@
+{
+  "system": {
+    "reboot": {
+      "warning": "REINÍCIO DO SERVIDOR",
+      "message": "O servidor vai reiniciar em {minutes} minutos. Por favor, encontre um local seguro e saia do jogo."
+    },
+    "commands": {
+      "permission_denied": "Você não tem permissão para usar este comando.",
+      "player_not_found": "Nenhum jogador encontrado com o ID {id}.",
+      "invalid_args": "Argumentos inválidos. Uso: {usage}"
+    }
+  },
+  "inventory": {
+    "errors": {
+      "full": "Seu inventário está cheio!",
+      "weight_exceeded": "Você não pode carregar mais peso.",
+      "item_not_found": "Você não possui este item."
+    },
+    "actions": {
+      "give": "Você deu {amount}x {item} para {player}.",
+      "receive": "Você recebeu {amount}x {item} de {player}.",
+      "use": "Você usou {item}."
+    }
+  },
+  "jobs": {
+    "police": {
+      "duty_on": "Você entrou EM SERVIÇO como policial.",
+      "duty_off": "Você saiu DE SERVIÇO.",
+      "cuff": "Você algemou o suspeito.",
+      "uncuff": "Você tirou as algemas do suspeito."
+    },
+    "ambulance": {
+      "revive": "Você reanimou {player}.",
+      "heal": "Você curou {player}."
+    }
+  }
+}

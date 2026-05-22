@@ -1,0 +1,112 @@
+{
+  "common": {
+    "buttons": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "back": "Voltar",
+      "save": "Salvar Alterações",
+      "delete": "Excluir",
+      "request_deletion": "Solicitar Exclusão da Conta"
+    },
+    "status": {
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "loading": "Carregando..."
+    }
+  },
+  "navbar": {
+    "title": "Portal InnerStudios",
+    "links": {
+      "licenses": "Chaves de Licença",
+      "plans": "Planos",
+      "upvotes": "Upvotes",
+      "support": "Suporte"
+    },
+    "dropdown": {
+      "active_customer": "Cliente Ativo",
+      "no_email_linked": "Nenhum email associado",
+      "account_settings": "Configurações da Conta",
+      "logout": "Sair"
+    }
+  },
+  "licenses": {
+    "list": {
+      "title": "Chaves de Licença",
+      "subtitle": "Gerencie as chaves de licença do seu servidor. Mantenha-as em segredo.",
+      "empty_state": "Você ainda não tem chaves de licença.",
+      "create_button": "Criar chave de licença",
+      "table": {
+        "label": "Rótulo",
+        "key": "Chave de Licença",
+        "status": "Status",
+        "ip": "IP Permitido",
+        "actions": "Ações",
+        "copied": "Copiado!"
+      }
+    },
+    "create": {
+      "title": "Criar nova licença",
+      "subtitle": "Configure a nova chave de licença para o servidor. Você pode atualizar estes detalhes mais tarde.",
+      "form": {
+        "label": "Rótulo do Servidor",
+        "label_placeholder": "ex: Meu Servidor de Produção",
+        "label_help": "Um nome amigável para identificar esta chave.",
+        "slug": "Slug do Servidor",
+        "slug_placeholder": "ex: inner-prod-1",
+        "slug_help": "Um identificador interno e único.",
+        "ip": "Whitelist de IP (Opcional)",
+        "ip_placeholder": "192.168.1.1",
+        "ip_help": "Bloqueia esta licença a um endereço IP específico para maior segurança."
+      },
+      "continue_button": "Continuar",
+      "incomplete_toast_title": "Formulário Incompleto",
+      "incomplete_toast_desc": "Por favor, preencha todos os campos obrigatórios."
+    },
+    "tos": {
+      "title": "Acordo de Serviço",
+      "subtitle": "Por favor, leia e aceite nossos Termos de Serviço",
+      "document": {
+        "title": "Acordo de Licença de Software INNERStudios",
+        "intro": "Ao comprar, baixar ou utilizar qualquer software, scripts ou frameworks fornecidos pela INNER Studios (operada por Afonso Hormigo Queiroz), você (\"Licenciado\") concorda com os seguintes termos na sua totalidade.",
+        "section_1_title": "1. Concessão de Licença e Propriedade",
+        "section_1_text1": "A INNER Studios concede ao Licenciado uma licença limitada, não exclusiva, não transferível e revogável para utilizar o software fornecido para o fim a que se destina. Toda a propriedade intelectual, incluindo mas não se limitando ao código-fonte, marca, documentação e ativos digitais, permanece propriedade exclusiva da INNER Studios / Afonso Hormigo Queiroz. Não lhe são concedidos quaisquer direitos de propriedade, não sendo permitido fazer engenharia reversa, redistribuir ou sublicenciar o software.",
+        "section_2_title": "2. Natureza do Serviço e Limitação de Responsabilidade",
+        "section_2_text1": "A INNER Studios atua estritamente como fornecedora de frameworks tecnológicos.\n\nSem Hospedagem ou Gestão: A INNER Studios não hospeda, gerencia, monitora ou controla qualquer ambiente de servidor criado através do nosso software. O Licenciado é o único operador do seu ambiente.\n\nTransferência Total de Responsabilidade: O Licenciado assume total e exclusiva responsabilidade legal e operacional por todo o conteúdo, dados e atividades realizadas no seu servidor. A INNER Studios não aceita qualquer responsabilidade por qualquer conteúdo hospedado, transmitido ou executado pelo Licenciado.\n\nSem Garantia: O SOFTWARE É FORNECIDO \"COMO ESTÁ\" E \"CONFORME A DISPONIBILIDADE\", SEM GARANTIAS DE QUALQUER TIPO, SEJAM EXPRESSAS OU IMPLÍCITAS, INCLUINDO MAS NÃO SE LIMITANDO A GARANTIAS DE COMERCIABILIDADE OU ADEQUAÇÃO A UM DETERMINADO FIM. A INNER Studios não garante que o software seja isento de erros ou ininterrupto.\n\nSem SLA: Não existe qualquer Acordo de Nível de Serviço (SLA). A INNER Studios não fornece garantias quanto a uptime, disponibilidade ou desempenho técnico.",
+        "section_3_title": "3. Política de Uso Aceitável (AUP)",
+        "section_3_text1": "O Licenciado está estritamente proibido de utilizar o software para facilitar:\n\nInfração de Propriedade Intelectual: Uso de marcas, marcas registradas ou materiais com direitos autorais não autorizados.\n\nAtividade Maliciosa: Hacking, ataques DDoS, distribuição de malware ou exploração de vulnerabilidades em sistemas de terceiros.\n\nConduta Disruptiva: Spam, abuso de comunicação em massa ou a promoção de toxicidade extrema.\n\nConteúdo Proibido: Hospedagem ou distribuição de pornografia, substâncias ilegais ou qualquer conteúdo considerado ilegal pelos regulamentos aplicáveis.\n\nViolações a esta AUP resultarão na revogação imediata e permanente da sua chave de licença sem qualquer reembolso.",
+        "section_4_title": "4. Pagamentos",
+        "section_4_text1": "Todas as transações financeiras referentes a licenças ou serviços são processadas e gerenciadas exclusivamente através do Stripe. Ao iniciar um pagamento, você concorda em cumprir os termos de serviço do Stripe e reconhece que a INNER Studios não armazena informações sensíveis de cartões de pagamento.",
+        "section_5_title": "5. Conformidade e Cooperação Legal",
+        "section_5_text1": "No caso de uma queixa legal válida, notificação de remoção DMCA, intimação policial ou denúncia de abuso verificada, a INNER Studios irá cooperar totalmente com as autoridades. Isto inclui a divulgação de quaisquer dados relevantes, incluindo registros de licença, endereços IP e as informações de contato fornecidas pelo Licenciado.",
+        "section_6_title": "6. Lei Aplicável e Resolução de Disputas",
+        "section_6_text1": "Este acordo será regido e interpretado em conformidade com as leis de Portugal. Quaisquer disputas decorrentes ou relacionadas com este acordo serão submetidas à jurisdição exclusiva dos tribunais competentes em Portugal."
+      },
+      "checkbox_label": "Li atentamente, compreendi e aceito os Termos de Serviço. Reconheço a minha total responsabilidade pelos conteúdos do servidor e entendo que os meus dados serão fornecidos às autoridades em caso de atividades ilegais ou denúncias válidas.",
+      "confirm_button": "Confirmar e Criar Licença",
+      "error_toast_title": "Termos não aceitos",
+      "error_toast_desc": "Você deve aceitar os Termos de Serviço para continuar."
+    }
+  },
+  "support": {
+    "title": "Helpdesk e Suporte",
+    "subtitle": "Crie um ticket ou consulte nossa base de conhecimento para obter assistência.",
+    "tickets": {
+      "title": "Abrir um Ticket",
+      "desc": "Obtenha ajuda da nossa equipe de suporte"
+    },
+    "knowledge_base": {
+      "title": "Base de Conhecimento",
+      "desc": "Leia guias e documentação técnica"
+    }
+  },
+  "account_details": {
+    "title": "Detalhes da Conta",
+    "badge": "Resumo",
+    "plan_label": "Plano Atual",
+    "email_label": "Email",
+    "discord_label": "Status do Discord",
+    "discord_linked": "Vinculado como {username}",
+    "discord_unlinked": "Não vinculado",
+    "contact_support": "Contatar Suporte"
+  }
+}

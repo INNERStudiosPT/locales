@@ -1,0 +1,60 @@
+{
+  "login": {
+    "title": "Entre na sua conta",
+    "subtitle": "Acesse o ecossistema InnerStudios.",
+    "form": {
+      "email": {
+        "label": "Endereço de email",
+        "placeholder": "voce@exemplo.com"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "••••••••",
+        "forgot": "Esqueceu sua senha?"
+      },
+      "submit": "Entrar"
+    },
+    "social": {
+      "divider": "Ou continue com",
+      "discord": "Discord"
+    },
+    "errors": {
+      "invalid_credentials": "O email ou a senha que você inseriu estão incorretos.",
+      "rate_limited": "Muitas tentativas. Por favor, tente novamente mais tarde."
+    }
+  },
+  "register": {
+    "title": "Crie sua conta",
+    "subtitle": "Junte-se à comunidade InnerStudios.",
+    "form": {
+      "username": {
+        "label": "Nome de Usuário",
+        "placeholder": "dev_legal"
+      },
+      "email": {
+        "label": "Endereço de email",
+        "placeholder": "voce@exemplo.com"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "••••••••"
+      },
+      "submit": "Criar conta"
+    },
+    "login_link": "Já tem uma conta? Entre aqui."
+  },
+  "mfa": {
+    "setup": {
+      "title": "Autenticação de Dois Fatores (2FA)",
+      "instructions": "Escaneie este código QR com seu aplicativo de autenticação.",
+      "code_label": "Código de Verificação",
+      "submit": "Ativar 2FA"
+    },
+    "verify": {
+      "title": "Verificação Necessária",
+      "instructions": "Insira o código de 6 dígitos do seu aplicativo de autenticação.",
+      "code_label": "Código de Autenticação",
+      "submit": "Verificar"
+    }
+  }
+}
