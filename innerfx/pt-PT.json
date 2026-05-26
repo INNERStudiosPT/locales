@@ -3,7 +3,8 @@
     "home": "Início",
     "developers": "Desenvolvedores",
     "servers": "Servidores",
-    "portal": "Portal"
+    "portal": "Portal",
+    "artifacts": "Artefactos"
   },
   "hero": {
     "title_part1": "servers are not what they were",
@@ -23,5 +24,40 @@
     "no_link": "Link de download não disponível.",
     "no_latest": "Não foi possível obter a versão mais recente.",
     "no_api": "Não foi possível contactar a API de downloads."
+  },
+  "artifacts": {
+    "title": "artefactos de plataforma",
+    "subtitle": "descarrega compilações limpas do launcher do cliente e do motor de servidor para windows e linux.",
+    "windows": "Windows",
+    "linux": "Linux",
+    "launcher": "Cliente Launcher",
+    "launcher_desc": "Cliente de launcher oficial para iniciar e gerir jogos.",
+    "server": "Servidor Base",
+    "server_desc": "Pacote de servidor base pré-configurado para alojar o teu ambiente de comunidade.",
+    "download_btn": "Descarregar Build",
+    "latest_build": "Última Build",
+    "recommended": "Recomendado",
+    "size": "Tamanho",
+    "date": "Data de Lançamento",
+    "version": "Versão",
+    "checksum": "Checksum SHA-256",
+    "copied": "Copiado!",
+    "copy_hash": "Copiar Checksum",
+    "need_help": "Precisas de ajuda a configurar o teu servidor? Lê o",
+    "server_manual_link": "Manual do Servidor"
+  },
+  "server_manual": {
+    "title": "Manual do Servidor & Guia de Configuração",
+    "intro": "Segue este guia para descarregar, configurar e iniciar o teu primeiro ambiente de servidor InnerFX.",
+    "step1_title": "Passo 1: Descarregar Artefactos do Servidor",
+    "step1_desc": "Navega até à secção de {link} e descarrega a build correspondente ao teu sistema operativo (Windows zip ou Linux tar.xz).",
+    "step2_title": "Passo 2: Extração & Colocação",
+    "step2_desc": "Extrai o arquivo descarregado para uma pasta dedicada (ex: C:/innerfx-server ou /home/innerfx/server). Garante permissões de leitura/escrita.",
+    "step3_title": "Passo 3: Configuração do Servidor",
+    "step3_desc": "Cria um ficheiro server.config.json ou usa o nosso gerador do portal. Configura portas, limite de jogadores e base de dados.",
+    "step4_title": "Passo 4: Iniciar o Servidor",
+    "step4_desc": "Executa run.bat no Windows ou ./run.sh no Linux para iniciar o ambiente. Garante o redirecionamento de portas (porta padrão: 30120).",
+    "back_to_docs": "Voltar aos Documentos",
+    "under_construction_desc": "A secção {section} está atualmente a ser redigida pela equipa de engenharia. Os guias estarão disponíveis brevemente."
   }
 }

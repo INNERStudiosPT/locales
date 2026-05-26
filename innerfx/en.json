@@ -3,7 +3,8 @@
     "home": "Home",
     "developers": "Developers",
     "servers": "Servers",
-    "portal": "Portal"
+    "portal": "Portal",
+    "artifacts": "Artifacts"
   },
   "hero": {
     "title_part1": "servers are not what they were",
@@ -23,5 +24,40 @@
     "no_link": "Download link not available.",
     "no_latest": "Could not retrieve the latest version.",
     "no_api": "Could not contact the download API."
+  },
+  "artifacts": {
+    "title": "platform artifacts",
+    "subtitle": "download clean builds of client launcher and server engines for windows and linux.",
+    "windows": "Windows",
+    "linux": "Linux",
+    "launcher": "Launcher Client",
+    "launcher_desc": "Official desktop launcher client for game launching and management.",
+    "server": "Server Build",
+    "server_desc": "Pre-configured base server package to host your custom community environment.",
+    "download_btn": "Download Build",
+    "latest_build": "Latest Build",
+    "recommended": "Recommended",
+    "size": "Size",
+    "date": "Release Date",
+    "version": "Version",
+    "checksum": "SHA-256 Checksum",
+    "copied": "Copied!",
+    "copy_hash": "Copy Checksum",
+    "need_help": "Need help setting up your server? Read the",
+    "server_manual_link": "Server Manual"
+  },
+  "server_manual": {
+    "title": "Server Manual & Setup Guide",
+    "intro": "Follow this guide to download, configure, and start your first InnerFX gaming server environment.",
+    "step1_title": "Step 1: Download Server Artifacts",
+    "step1_desc": "Navigate to the {link} section and download the build matching your host operating system (Windows zip or Linux tar.xz).",
+    "step2_title": "Step 2: Extraction & Placement",
+    "step2_desc": "Extract the downloaded archive into a dedicated directory (e.g., C:/innerfx-server or /home/innerfx/server). Ensure read/write directory permissions are set.",
+    "step3_title": "Step 3: Server Configuration",
+    "step3_desc": "Create a file named server.config.json or use our online portal generator. Configure ports, max clients, and server database connections.",
+    "step4_title": "Step 4: Launching",
+    "step4_desc": "Execute run.bat on Windows or ./run.sh on Linux to boot up the environment. Ensure appropriate port forwarding (default port: 30120).",
+    "back_to_docs": "Back to Docs",
+    "under_construction_desc": "The section {section} is currently under construction. Please check back later."
   }
 }
