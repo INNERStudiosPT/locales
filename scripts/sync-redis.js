@@ -13,7 +13,7 @@ async function main() {
   console.log("Connected to Redis. Syncing namespaces...");
 
   const rootDir = path.resolve(__dirname, '..');
-  const namespaces = ['portal', 'auth', 'api', 'ic_core'];
+  const namespaces = ['portal', 'auth', 'api', 'ic_core', 'innerfx'];
 
   for (const ns of namespaces) {
     const nsPath = path.join(rootDir, ns);

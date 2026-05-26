@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "Início",
+    "developers": "Desenvolvedores",
+    "servers": "Servidores",
+    "portal": "Portal"
+  },
+  "hero": {
+    "title_part1": "servers are not what they were",
+    "title_part2": "they're better",
+    "description": "desempenho incomparável, estabilidade de ponta e desenvolvimento contínuo.",
+    "download_now": "Descarregar Agora",
+    "create_server": "Criar Servidor",
+    "downloading": "A descarregar..."
+  },
+  "discover": {
+    "title": "Descobre Algo Novo",
+    "view_more": "Ver mais"
+  },
+  "toast": {
+    "error_title": "Erro",
+    "error_conn_title": "Erro de Conexão",
+    "no_link": "Link de download não disponível.",
+    "no_latest": "Não foi possível obter a versão mais recente.",
+    "no_api": "Não foi possível contactar a API de downloads."
+  }
+}

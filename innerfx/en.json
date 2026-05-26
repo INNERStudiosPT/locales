@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "Home",
+    "developers": "Developers",
+    "servers": "Servers",
+    "portal": "Portal"
+  },
+  "hero": {
+    "title_part1": "servers are not what they were",
+    "title_part2": "they're better",
+    "description": "unmatched performance, cutting-edge stability, and continuous development.",
+    "download_now": "Download Now",
+    "create_server": "Create Server",
+    "downloading": "Downloading..."
+  },
+  "discover": {
+    "title": "Discover Something New",
+    "view_more": "View more"
+  },
+  "toast": {
+    "error_title": "Error",
+    "error_conn_title": "Connection Error",
+    "no_link": "Download link not available.",
+    "no_latest": "Could not retrieve the latest version.",
+    "no_api": "Could not contact the download API."
+  }
+}
